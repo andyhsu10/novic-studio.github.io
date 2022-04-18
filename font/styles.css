@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'BIG JOHN';
+  src: url(./BIG+JOHN.eot);
+  src: url(./BIG+JOHN.eot?#iefix) format('embedded-opentype'),
+       url(./BIG+JOHN.woff2) format('woff2'),
+       url(./BIG+JOHN.ttf) format('truetype');
+}
