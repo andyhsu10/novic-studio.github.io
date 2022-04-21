@@ -46,6 +46,7 @@
   line-height: 100px;
   display: none;
   background-color: black;
+  z-index: 999;
 
 }
 
