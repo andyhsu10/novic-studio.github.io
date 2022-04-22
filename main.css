@@ -215,7 +215,7 @@ p {
   .language, .swith_language{
     display: none;
   }
-  .logo {
+  .logo, #utility > img {
     width: 80%;
   }
   .join_button {
@@ -223,5 +223,8 @@ p {
   }
   .stons {
     display: none;
+  }
+  #vision_title {
+    width: 60%;
   }
 }
