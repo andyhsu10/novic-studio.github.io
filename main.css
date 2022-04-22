@@ -13,7 +13,9 @@
   background-image: -webkit-linear-gradient( 5deg, rgb(194,8,128) 0%, rgb(17,60,216) 100%);
   background-image: -ms-linear-gradient( 5deg, rgb(194,8,128) 0%, rgb(17,60,216) 100%);
 }
-
+#nav-content {
+  padding-right: 0;
+}
 .nav-link {
   display: block;
   text-decoration: none;
