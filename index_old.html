@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novic</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css"  href="main.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-xxl navbar-dark" aria-label="Seventh navbar example" id="nav">
+    <div class="container-fluid" id="nav-content">
+      <a class="navbar-brand" href="#">
+        <svg 
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="220px" height="45px">
+        <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+        d="M208.367,46.373 C210.414,46.373 212.091,46.004 213.672,45.262 L222.979,39.911 L223.682,39.911 L223.682,48.213 L195.080,48.213 C189.820,46.755 185.674,44.292 182.678,40.727 C179.609,36.789 177.932,31.735 177.932,25.639 C177.932,17.687 180.631,11.222 186.121,6.242 C189.465,3.390 193.624,1.444 198.597,0.322 L223.682,0.322 L223.682,9.140 L222.887,9.140 L213.580,3.790 C212.091,3.048 210.414,2.677 208.460,2.677 C201.947,2.677 196.920,4.610 193.570,8.398 C190.123,12.561 188.264,17.910 188.264,24.601 C188.264,29.951 189.286,34.412 191.522,37.902 C194.777,43.550 200.363,46.373 208.367,46.373 ZM159.320,47.342 C160.805,46.674 162.016,45.483 162.948,43.922 C163.693,42.511 164.063,40.578 164.063,37.977 L164.063,11.075 C164.063,8.547 163.693,6.614 162.948,5.127 C162.112,3.641 160.805,2.453 159.320,1.637 C157.736,2.006 156.433,2.750 155.596,3.864 C154.571,5.351 153.456,7.134 152.338,9.214 L133.829,48.213 L126.662,48.213 L109.712,8.994 C108.779,6.986 107.849,5.351 106.827,4.013 C105.895,3.194 104.592,2.378 102.825,1.637 L102.825,0.322 L120.692,0.322 L120.692,1.637 C118.367,2.750 117.808,5.053 119.204,8.547 L128.862,31.687 L156.813,0.322 L177.931,0.322 L177.931,1.637 C176.443,2.378 175.140,3.567 174.303,5.127 C173.559,6.538 173.185,8.472 173.185,11.075 L173.185,37.977 C173.185,40.504 173.559,42.436 174.303,43.922 C175.140,45.408 176.350,46.596 177.931,47.342 L177.931,48.213 L159.320,48.213 L159.320,47.342 ZM110.388,32.255 C108.871,39.451 103.770,44.577 95.086,47.639 C94.472,47.855 93.862,48.033 93.252,48.213 L75.126,48.213 C73.581,47.705 72.051,47.083 70.540,46.299 C65.171,43.397 60.763,39.103 57.531,33.255 C54.337,27.477 53.248,22.010 54.228,16.791 C55.745,9.595 60.846,4.467 69.492,1.336 C70.677,0.920 71.859,0.604 73.031,0.322 L87.468,0.322 C89.701,0.880 91.904,1.668 94.079,2.745 C99.532,5.617 103.770,9.974 107.085,15.789 C110.279,21.569 111.368,27.033 110.388,32.255 ZM97.634,19.121 C94.233,13.335 90.438,9.229 86.382,6.675 C81.316,3.588 76.139,3.058 70.815,5.015 C65.570,6.943 62.737,10.461 62.510,15.577 C62.271,19.561 63.842,24.614 67.282,30.468 C70.514,36.314 74.226,40.449 78.451,42.941 C83.562,45.932 88.691,46.562 94.019,44.605 C99.260,42.675 101.975,39.118 102.406,34.012 C102.524,29.990 100.943,25.103 97.634,19.121 ZM39.760,47.339 C41.341,46.078 42.459,44.666 43.111,43.254 C43.481,41.842 43.296,43.997 43.481,41.842 L10.056,0.324 L11.401,0.324 L43.855,27.126 L43.855,11.074 C43.855,8.992 43.577,7.209 43.111,5.797 C42.552,4.310 41.341,2.973 39.760,1.636 L39.760,0.324 L53.347,0.324 L53.347,1.636 C51.578,2.973 50.371,4.310 49.997,5.797 C49.438,7.133 49.160,8.917 49.253,11.074 L49.253,37.976 C49.253,40.058 49.438,41.767 49.997,43.254 C50.371,44.666 51.488,46.078 53.347,47.339 L53.347,48.212 L39.760,48.212 L39.760,47.339 ZM14.072,47.342 L14.072,48.213 L0.951,48.213 L0.951,46.882 C2.254,45.734 3.257,44.503 3.832,43.255 C4.206,41.843 4.391,40.134 4.579,37.977 L4.579,11.075 C4.579,8.994 4.298,7.210 3.832,5.798 C3.334,4.467 2.293,3.256 0.951,2.058 L0.951,0.322 L9.977,0.322 L9.977,37.977 C9.977,40.060 10.162,41.769 10.721,43.255 C11.092,44.667 12.210,46.079 14.072,47.342 Z"/>
+        </svg>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleXxl" aria-controls="navbarsExampleXxl" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExampleXxl">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#main">世界觀</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">角色</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#vision">願景</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#utility">賦能</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Mint</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#roadmap">路線圖</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">團隊</a>
+          </li>
+        </ul>
+      </div>
+      <div class="language">
+        繁中
+        <div class="swith_language">
+          <a class="nav-link" href="index _en.html">
+            English
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="main" class="pb-5">
+    <div id="title">
+      <img class="rounded mx-auto d-block logo" src="img/title.png" alt="">
+      <a href="https://lihi1.com/vHdGQ" target="_blank">
+        <img class="rounded mx-auto d-block pt-5 join_button" src="img/join.png" alt="" width="17%">
+      </a>
+      <img src="img/ston_1.png" class="stons" id="ston_1" alt="">
+      <img src="img/ston_3.png" class="stons" id="ston_3" alt="">
+      <p class="text fw-bold">
+        2019 年，<br/>
+        有史以來規模最大的全球疫病「武漢肺炎」爆發。<br/>
+        各國政府無不竭力投入研發疫疫苗，<br/>
+        於此同時，<br/>
+        台灣成功研發出「台光疫苗」並在測試後對部分民眾施打。<br/>
+        不久後，離奇的事情發生了！<br/>
+        少部分施打台光疫苗的民眾，因為不明原因，<br/>
+        發展出不可思議的超能力，<br/>
+        像瞬間移動、磁力、超出人體極限的力量與耐久力等等……<br/><br/>
+
+        在媒體大肆報導下，<br/>
+        軍事強國爭先恐後想獲取台光疫苗以強化軍事實力。<br/>
+        台灣政府也以這個疫苗為籌碼，爭取加入聯合國；<br/>
+        此時，中國因台灣國際地位大幅提升，<br/>
+        加上因疫苗而生超能力者已嚴重威脅中國的軍事優勢，<br/>
+        於是派出東海艦隊攻打台灣，台海戰爭於焉爆發；<br/><br/>
+        然而，跌破所有人眼鏡，<br/>
+        台灣軍隊在超能力者的協助下，<br/>
+        輕易地瓦解了中國的入侵，引起全球譁然。<br/>
+        最終美國出面調停後，<br/>
+        台灣與中國簽訂了台北條約，<br/>
+        戰事才迎來結束。<br/>
+        然而，超能力者們的故事才正要開始。
+      </p>
+    </div>
+  </section>
+  <section id="vision" class="py-5">
+    <img class="rounded mx-auto d-block pt-5" id="vision_title" src="img/vision_ttl.png" alt="" width="33%">
+    <img src="img/ston_4.png" class="stons" id="ston_4" alt="">
+    <img src="img/ston_2.png" class="stons" id="ston_2" alt="">
+    <p class="subtitle"><strong>Novic Universe</strong></p>
+    <p class="vision_text"><strong>
+      是我們推出的第一個世界觀，<br/>
+      這是個人人都有機會成為超級英雄的平行宇宙。<br/>
+      我們想要透過集體創作的形式以及社群機制讓臺灣乃至於世界各個角落的人，<br/>
+      都能夠分享屬於自己的英雄故事。<br/><br/>
+    </strong></p>
+    <p class="subtitle"><strong>新的創作者商業模式</strong></p>
+    <p class="vision_text"><strong>
+      但 Novic 不僅止於此，<br/>
+      Novic Universe 更是一個創作者與粉絲社群，<br/>
+      我們志在協助創作者打造多元且高品質的作品，<br/>
+      並透過社群共識機制把其中優秀的作品發行成 NFT，<br/>
+      讓創作者獲得合理的報酬。<br/><br/>
+      不論你想聽故事或者創作故事，<br/>
+      都歡迎加入我們的 Discord，一起來擴張 Novic Universe 吧！<br/><br/>
+    </strong></p>
+    <a href="https://lihi1.com/vHdGQ" target="_blank">
+      <img class="rounded mx-auto d-block pt-5 join_button" src="img/join.png" alt="" width="17%">
+    </a>
+  </section>
+  <section id="utility" class="pb-5">
+    <img class="rounded d-block pb-5" src="img/utility_ttl.png" alt="" width="66%">
+    <p class="utility_text fw-bold">
+        在 Novic Universe 中，NFT 持有者將會成為社群的核心與故事的推廣者，<br> 
+        我們邀請你一同來建設 Novic Universe，讓更多人看見我們的故事。
+    </p>
+    <div class="container">
+      <div class="utility_block my-5">
+        <div class="row">
+          <div class="col-3 text-center align-self-center">
+            <img src="img/utiliry_1.png" width="70%" alt="">
+          </div>
+          <div class="col-9">
+            <img src="img/utility_subtitle.png" class="pb-2" width="40%" alt="">
+            <div class="row">
+              <span class="utility_block_arrow col-1">
+                  >
+              </span>
+              <p class="utility_block_text col-10 fw-bold" >
+                  持有的 NFT 不同，你將會有提早看到新的故事、決定角色的背景甚至是為你量身打造超級英雄故事等一系列權益。
+              </p>
+            </div>
+            <div class="row">
+              <span class="utility_block_arrow col-1">
+                  >
+              </span>
+              <p class="utility_block_text col-10 fw-bold" >
+                  我們更承諾把 NFT 銷售收入的 30% 投入到後續同一位角色的創作上，我們相信把這個角色的故事說好並推廣出去，你手上持有 NFT 的價值也會提升。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="utility_block my-5">
+        <div class="row">
+          <div class="col-3 text-center align-self-center">
+            <img src="img/utiliry_2.png" width="70%" alt="">
+          </div>
+          <div class="col-9">
+            <img src="img/utility_subtitle_2.png" class="pb-2" width="28%" alt="">
+            <div class="row">
+              <span class="utility_block_arrow col-1">
+                  >
+              </span>
+              <p class="utility_block_text col-10 fw-bold" >
+                  每月我們都會提供 Novic Universe 不同角色的白名單權益。
+              </p>
+            </div>
+            <div class="row">
+              <span class="utility_block_arrow col-1">
+                  >
+              </span>
+              <p class="utility_block_text col-10 fw-bold" >
+                  我們相信 NFT 持有者就是最好的推廣者，因此每月我們也會設定一些與故事推廣相關的目標（例如：故事觸擊人數達到一萬人），只要目標達成我們就會為該系列的 NFT 持有者空投限量 NFT。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="utility_block my-5">
+        <div class="row">
+          <div class="col-3 text-center align-self-center">
+            <img src="img/utiliry_3.png" width="70%" alt="">
+          </div>
+          <div class="col-9">
+            <img src="img/utility_subtitle_3.png" class="pb-2" width="40%" alt="">
+            <div class="row">
+              <span class="utility_block_arrow col-1">
+                  >
+              </span>
+              <p class="utility_block_text col-10 fw-bold" >
+                  做為 NFT 的持有者，你將能夠加入我們 Discord 的私人頻道，並能在影響專案重大方向的議題上享有投票權。
+              </p>
+            </div>
+            <div class="row">
+              <span class="utility_block_arrow col-1">
+                  >
+              </span>
+              <p class="utility_block_text col-10 fw-bold" >
+                  我們還會邀請部分 NFT 的持有者加入我們的內容委員會，協助我們發覺創作者社群中真正優秀的作品。我們則會把這些作品發行成 NFT，而每一位委員會成員也都會獲得部分利潤回饋。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="roadmap">
+    <div class="container">
+      <div class="row justify-content-end">
+        <div class="col-8">
+          <img src="img/roadmap_title.png" width="100%" alt="">
+        </div>
+      </div>
+      <div class="row justify-content-end mt-5">
+        <div class="col-8 roadmap_content">
+          <div class="row w-100 justify-content-center my-5 ps-3">
+            <span class="roadmap_block_arrow col-1">
+              >
+            </span>
+            <p class="roadmap_block_text col-10 fw-bold">
+                後續新的章節更新
+            </p>
+          </div>
+          <div class="row w-100 justify-content-center my-5 ps-3">
+            <span class="roadmap_block_arrow col-1">
+              >
+            </span>
+            <p class="roadmap_block_text col-10 fw-bold" >
+                進一步擴大Novic Universe
+            </p>
+          </div>
+          <div class="row w-100 justify-content-center my-5 ps-3">
+            <span class="roadmap_block_arrow col-1">
+              >
+            </span>
+            <p class="roadmap_block_text col-10 fw-bold" >
+                做公仔回饋NFT持有者
+            </p>
+          </div>
+          <div class="row w-100 justify-content-center my-5 ps-3">
+            <span class="roadmap_block_arrow col-1">
+              >
+            </span>
+            <p class="roadmap_block_text col-10 fw-bold" >
+                完善集體創作及社群共識機制，幫助二線創作者獲得收入
+            </p>
+          </div>
+          <div class="row w-100 justify-content-center my-5 ps-3">
+            <span class="roadmap_block_arrow col-1">
+              >
+            </span>
+            <p class="roadmap_block_text col-10 fw-bold" >
+                出實體漫畫、小說紀念版
+            </p>
+          </div>
+          <div class="row w-100 justify-content-center my-5 ps-3">
+            <span class="roadmap_block_arrow col-1">
+              >
+            </span>
+            <p class="roadmap_block_text col-10 fw-bold" >
+                招募外國創作者，並把Novic Universe拓展到國外城市
+            </p>
+          </div>
+          <div class="row w-100 justify-content-center my-5 ps-3">
+            <span class="roadmap_block_arrow col-1">
+              >
+            </span>
+            <p class="roadmap_block_text col-10 fw-bold" >
+                推出新的世界觀
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5" id="team">
+        <div class="col-4">
+          <img src="img/team_ttl.png" width="100%" alt="">
+        </div>
+      </div>
+      <div class="row w-75 my-5">
+        <div class="col-6">
+          <div class="team_member_name">Aidan</div>
+          <div class="team_member_intro">
+            Project Coordinator<br/>
+            PM, Engineer @ Internet Industry
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="team_member_name">Hank</div>
+          <div class="team_member_intro">
+            Marketing Specialist<br/>
+            Marketing Vetaran
+          </div>
+        </div>
+      </div>
+      <div class="row w-75 my-5">
+        <div class="col-6">
+          <div class="team_member_name">Shawn</div>
+          <div class="team_member_intro">
+            Crypto Developer<br/>
+            Developer @ Web3 Company
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="team_member_name">高藝</div>
+          <div class="team_member_intro">
+            Advisor
+          </div>
+        </div>
+      </div>
+      <div class="row w-75 my-5">
+        <div class="col-6">
+          <div class="team_member_name">Piter</div>
+          <div class="team_member_intro">
+            Story Writer<br/>
+            Game | Entertainment Industry
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container my-5">
+      <div class="row justify-content-center my-5">
+        <div class="col-1 text-center">
+          <img src="img/fb.png" class="social_media_icon" alt="">
+        </div>
+        <div class="col-1 text-center">
+          <img src="img/twitter.png" class="social_media_icon" alt="">
+        </div>
+        <div class="col-1 text-center">
+          <a href="https://lihi1.com/vHdGQ" target="blank">
+            <img src="img/discord.png" class="social_media_icon" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="row justify-content-center my-3">
+        <div class="col-6 text-center footer_text">COPYRIGHT©NOVIC ALL RIGHTS RESERVED.</div>
+      </div>
+    </footer>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
