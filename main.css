@@ -5,17 +5,20 @@
       url(./font/BIGJOHN.woff2) format('woff2'),
       url(./font/BIGJOHN.ttf) format('truetype');
 }
+
 #nav {
   width: 100%;
-  min-height: 100px;
+  min-height: 5rem;
   padding: 0;
   background-image: -moz-linear-gradient( 5deg, rgb(194,8,128) 0%, rgb(17,60,216) 100%);
   background-image: -webkit-linear-gradient( 5deg, rgb(194,8,128) 0%, rgb(17,60,216) 100%);
   background-image: -ms-linear-gradient( 5deg, rgb(194,8,128) 0%, rgb(17,60,216) 100%);
 }
+
 #nav-content {
   padding-right: 0;
 }
+
 .nav-link {
   display: block;
   text-decoration: none;
@@ -23,16 +26,17 @@
   font-size: 1.3rem;
   padding: 0;
 }
+
 .nav-item {
   min-width: 130px;
-  line-height: 100px;
   text-align: center;
 }
+
 .language {
   float: right;
   color: white;
   font-size: 1.3rem;
-  line-height: 100px;
+  line-height: 5rem;
   width: 130px;
   text-align: center;
   position: relative;
@@ -55,13 +59,19 @@
 .language:hover > .swith_language {
   display: block;
 }
+
 .logo {
   width: 50%;
 }
+
+.join_button {
+  height: 52px;
+}
+
 #main, #vision, #utility, #roadmap, #character, #mint {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100% ;
+  background-size: cover, 100%;
   min-width: 100%;
 }
 
@@ -70,17 +80,57 @@
   background-image: url('img/main_bg.jpg');
   position: relative;
 }
+
 #title, .text, #team, footer {
   padding-top: 15rem;
 }
+
+.slogan {
+  color: white;
+  background-color: blue;
+  padding: 0 0.75rem;
+  letter-spacing: 0.1rem;
+}
+
 .text, .footer_text {
   color: white;
   text-align: center;
   line-height: 2;
   font-size: 1.2rem;
 }
+
 p {
   margin-bottom: 0;
+}
+
+.property {
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.property .key {
+  border: 1.5px solid black;
+  border-right: none;
+  padding: 0.2rem 0.6rem;
+  // background-color: rgb(55, 88, 142);
+  flex-shrink: 0;
+}
+
+.property .value {
+  border: 1.5px solid black;
+  padding: 0.2rem 0.65rem;
+  background-color: black;
+  // flex-grow: 1;
 }
 
 #character {
@@ -97,6 +147,7 @@ p {
 .stons {
   position: absolute;
 }
+
 #ston_1 {
   width: 15rem;
   left: 13rem;
@@ -144,7 +195,7 @@ p {
 #utility {
   display: block;
   background-image: url('img/images/utility_bg_04.png');
-  padding-top: 15rem;
+  padding-top: 10rem;
   padding-bottom: 10rem;
 }
 
@@ -164,6 +215,7 @@ p {
   border-color: rgba(255, 255, 255, 0.2);
   padding: 2rem;
 }
+
 .utility_block:nth-child(2) {
   margin-left: 10%;
 }
@@ -201,6 +253,7 @@ p {
   font-size: 2rem;
   font-weight: bold;
 }
+
 .team_member_intro {
   color: white;
   font-size: 1.2rem;
@@ -233,22 +286,43 @@ p {
   background-image: url('img/images/mint_25.png');
 }
 
+@media(max-width: 992px) {
+  .logo {
+    width: 70%;
+  }
+
+  .utility_block:nth-child(2) {
+    margin-left: 0;
+  }
+}
+
+@media(max-width: 768px) {
+  .logo {
+    width: 80%;
+  }
+}
+
 @media(max-width: 540px) {
   html {
     font-size: 10px;
   }
+
   .language, .swith_language{
     display: none;
   }
+
   .logo, #utility > img {
-    width: 80%;
+    width: 85%;
   }
+
   .join_button {
-    width: 50%;
+    height: 40px;
   }
+
   .stons {
     display: none;
   }
+
   #vision_title {
     width: 60%;
   }
